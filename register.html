@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">
+      <button type="button">
+        Index
+      </button>
+    </a>
+    <a href="timetable.html">
+      <button type="button">
+        Timetable
+      </button>
+    </a>
+    <a href="tutorial.html">
+      <button type="button">
+        Tutorial
+      </button>
+    </a>
+    <a href="register.html">
+      <button type="button">
+        Register
+      </button>
+    </a>
+    <a href="blog.html">
+      <button type="button">
+        Blog
+      </button>
+    </a>
+    <a href="gallery.html">
+      <button type="button">
+        Gallery
+      </button>
+    </a>
+    
+  </nav>
+<div>
+  <h1>This is the registration page</h1>
+  <a href="index.html">
+    <button type="button">
+      Back To Home Page
+    </button>
+  </a>
+</div>
+
+<br><hr>
+
+<div>
+  <form action="register.php" method="POST">
+    <label for="name">Full Name:</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="pword">Pasword:</label><br>
+    <input type="password" name="pword" id="pword">
+    <br><br>
+    
+    <label for="age">Age:</label><br>
+    <input type="number" name="age" id="age" value="18">
+    <br><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" name="dob" id="dob">
+    <br><br>
+    Select Gender Type:
+    <br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" name="gender" id="others">
+    <label for="others">Others</label>
+
+    <br><br>
+    Select one or more Subjects:
+    <br>
+    <input type="checkbox" name="maths" id="maths">
+    <label for="maths">Mathematics</label>
+    <br>
+    <input type="checkbox" name="english" id="english">
+    <label for="english">English</label>
+    <br>
+    <input type="checkbox" name="computer" id="computer">
+    <label for="computer">Computer Science</label>
+    <br>
+    <input type="checkbox" name="litenglish" id="litenglish">
+    <label for="litenglish">Literature in English</label>
+    <br>
+    <input type="checkbox" name="social" id="social">
+    <label for="social">Social Studies</label>
+    <br><br>
+    <label for="msg">Message</label>
+    <br>
+    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit" name="submit">
+
+</form>
+</div>
+  </body>
+</html>
